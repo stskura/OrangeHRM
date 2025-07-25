@@ -22,7 +22,7 @@
 &emsp;&emsp;&emsp;Tested on Chrome browser.
   
 &emsp;&emsp;Screenshot:\
-<img align="right" width="860" height="860" src="/images/defect_fullNameSearch.png">
+<img align="right" width="960" height="960" src="/images/defect_fullNameSearch.png">
 <br clear="right"/>
 </br>
 </br>
@@ -44,7 +44,7 @@
 &emsp;&emsp;&emsp;Tested on Chrome browser.
 
 &emsp;&emsp;Screenshot:\
-<img align="right" width="860" height="860" src="/images/deleteAction.png">
+<img align="right" width="960" height="960" src="/images/deleteAction.png">
 <br clear="right"/>
 </br>
 </br>
