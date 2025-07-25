@@ -12,7 +12,6 @@
 <img align="right" width="970" height="970" src="/images/test_execution.png">
 <br clear="right"/>
 </br>
-</br>
 
 ## :page_facing_up: How to View the report
 &emsp;Run the following code to open the report in the browser:\
@@ -22,7 +21,11 @@
 <img align="right" width="970" height="970" src="/images/report.png">
 <br clear="right"/>
 </br>
-</br>
 
 ## :pencil: Defects and Enhancement Suggestions
 &emsp;See the detailed report here: [Defect and Enhancement Report](/defect.md)
+</br>
+</br>
+
+## :file_folder: Backlog
+&emsp;See the information about the cleanup next steps here: [Next Steps Report](/backlog.md)
