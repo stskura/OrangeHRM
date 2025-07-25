@@ -2,13 +2,6 @@
 import { test, expect } from '@playwright/test';
 import { Utilities } from './testUtilities';
 
-//Candidate Fields
-let candidateFields = {
-      firstName: "Orange",
-      lastName: "TestLastName",
-      email: "test@test.com"
-  };
-
 /**
  * Before each test do the login.
  */
@@ -40,7 +33,7 @@ test('Recruitment - Create Candidate', async ({ page }) => {
   const utilities = new Utilities(page);
 
   //Create a candidate
-  await utilities.createCandidate(candidateFields);
+  await utilities.createCandidate(utilities.candidateFields);
 
   //Validate Success message
   await utilities.validateSuccessMessage();
@@ -52,6 +45,7 @@ test('Recruitment - Create Candidate', async ({ page }) => {
  */
 test('Recruitment - Edit Candidate', async ({ page }) => { 
   const utilities = new Utilities(page);
+  const candidateFields = utilities.candidateFields;
 
   //Create a candidate
   await utilities.createCandidate(candidateFields);
@@ -107,6 +101,7 @@ test('Recruitment - Edit Candidate', async ({ page }) => {
  */
 test('Recruitment - Delete Candidate', async ({ page }) => { 
   const utilities = new Utilities(page);
+  const candidateFields = utilities.candidateFields;
 
   //Create a candidate
   await utilities.createCandidate(candidateFields);

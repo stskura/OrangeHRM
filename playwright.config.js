@@ -52,7 +52,12 @@ export default defineConfig({
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
-    },
+    }/*,
+    {
+      name: "cleanup",
+      testMatch: /global\.teardown\.js/,
+      dependencies: ['chromium','firefox','webkit'],
+    }*/
 
     /* Test against mobile viewports. */
     // {

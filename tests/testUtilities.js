@@ -10,6 +10,13 @@ export class Utilities {
         password: "admin123"
     };
 
+    //Candidate Fields
+    candidateFields = {
+        firstName: "Orange",
+        lastName: "TestLastName",
+        email: "test@test.com"
+    };
+
     /**
      * @param {import('playwright').Page} page
     */
