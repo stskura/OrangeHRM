@@ -115,12 +115,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 8973,
+                  "duration": 7156,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:04.230Z",
+                  "startTime": "2025-07-25T15:00:17.288Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,7 +130,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-3b56a4e934ee091023d0",
           "file": "tests.spec.js",
-          "line": 42,
+          "line": 25,
           "column": 5
         },
         {
@@ -149,12 +149,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 12274,
+                  "duration": 8936,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:04.199Z",
+                  "startTime": "2025-07-25T15:00:17.337Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -164,7 +164,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-b933b1d69e2c8e573df0",
           "file": "tests.spec.js",
-          "line": 56,
+          "line": 39,
           "column": 5
         },
         {
@@ -183,12 +183,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 19208,
+                  "duration": 19518,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:04.211Z",
+                  "startTime": "2025-07-25T15:00:17.281Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -198,7 +198,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-22973d9d91acc4f11308",
           "file": "tests.spec.js",
-          "line": 70,
+          "line": 53,
           "column": 5
         },
         {
@@ -217,12 +217,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 13181,
+                  "duration": 10757,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:04.228Z",
+                  "startTime": "2025-07-25T15:00:17.398Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -232,7 +232,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-ebfb46e7aef05c5ca266",
           "file": "tests.spec.js",
-          "line": 125,
+          "line": 108,
           "column": 5
         },
         {
@@ -251,12 +251,12 @@
                   "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7201,
+                  "duration": 7034,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:15.183Z",
+                  "startTime": "2025-07-25T15:00:26.452Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -266,7 +266,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-d248a8cdb9ad7124513c",
           "file": "tests.spec.js",
-          "line": 42,
+          "line": 25,
           "column": 5
         },
         {
@@ -285,12 +285,12 @@
                   "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 14160,
+                  "duration": 11126,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:18.287Z",
+                  "startTime": "2025-07-25T15:00:28.152Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -300,7 +300,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-3937f5a10d819cb4088b",
           "file": "tests.spec.js",
-          "line": 56,
+          "line": 39,
           "column": 5
         },
         {
@@ -319,12 +319,12 @@
                   "workerIndex": 6,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 19275,
+                  "duration": 17094,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:19.056Z",
+                  "startTime": "2025-07-25T15:00:30.136Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -334,7 +334,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-c241d0532d3c5a82978f",
           "file": "tests.spec.js",
-          "line": 70,
+          "line": 53,
           "column": 5
         },
         {
@@ -353,12 +353,12 @@
                   "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 16494,
+                  "duration": 12729,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:23.255Z",
+                  "startTime": "2025-07-25T15:00:34.263Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -368,7 +368,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-0bc4448475b900b1900b",
           "file": "tests.spec.js",
-          "line": 125,
+          "line": 108,
           "column": 5
         },
         {
@@ -387,12 +387,12 @@
                   "workerIndex": 7,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 10107,
+                  "duration": 5636,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:25.696Z",
+                  "startTime": "2025-07-25T15:00:38.929Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -402,7 +402,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-d611bb807803b7963ce0",
           "file": "tests.spec.js",
-          "line": 42,
+          "line": 25,
           "column": 5
         },
         {
@@ -421,12 +421,12 @@
                   "workerIndex": 8,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 11530,
+                  "duration": 10230,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:35.010Z",
+                  "startTime": "2025-07-25T15:00:42.383Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -436,7 +436,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-8690ac9d830afca6e35b",
           "file": "tests.spec.js",
-          "line": 56,
+          "line": 39,
           "column": 5
         },
         {
@@ -455,12 +455,12 @@
                   "workerIndex": 7,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 23150,
+                  "duration": 19580,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:35.954Z",
+                  "startTime": "2025-07-25T15:00:44.657Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -470,7 +470,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-cf2de5ebc4a88a736c1c",
           "file": "tests.spec.js",
-          "line": 70,
+          "line": 53,
           "column": 5
         },
         {
@@ -487,14 +487,14 @@
               "results": [
                 {
                   "workerIndex": 9,
-                  "parallelIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 15511,
+                  "duration": 13234,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-25T12:58:40.576Z",
+                  "startTime": "2025-07-25T15:00:48.830Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -504,7 +504,7 @@
           ],
           "id": "f6bd81a7b59176588a9b-fd334fc94e33f797726b",
           "file": "tests.spec.js",
-          "line": 125,
+          "line": 108,
           "column": 5
         }
       ]
@@ -512,8 +512,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-25T12:58:03.180Z",
-    "duration": 55969.981999999996,
+    "startTime": "2025-07-25T15:00:16.210Z",
+    "duration": 48067.102999999996,
     "expected": 12,
     "skipped": 0,
     "unexpected": 0,

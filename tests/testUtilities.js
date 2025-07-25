@@ -83,32 +83,4 @@ export class Utilities {
     async fillText(fieldName, text){
         await this.page.getByPlaceholder(fieldName).fill(text);
     };
-
-    /**
-     * Delete a candidate by the name
-     * @param {string} fieldName
-     */
-    async deleteCandidate(fieldName){
-        //Click in the Recruitment menu item
-        await this.page.getByRole("navigation").getByText('Recruitment').click();
-    
-        //Click in the checkbox of the created candidate
-        await expect(this.page.getByRole('rowgroup').first()).toBeVisible();
-        var candidates = this.page.getByRole('row').filter({hasText : fieldName});
-        const count = await candidates.count();
-
-        if(candidates!=null && await candidates.count() > 0){
-
-            /*for (let i = 0; i < count; ++i) {
-                await candidates.nth(i).getByRole('checkbox').locator('//following-sibling::span').check(); 
-            }*/
-            await candidates.nth(0).getByRole('checkbox').locator('//following-sibling::span').check(); 
-    
-            //Click in the delete utton
-            await this.buttonClick('Delete Selected');
-        
-            //Click to confirm the delete operation
-            await this.buttonClick('Yes, Delete');
-        }       
-    };
 }

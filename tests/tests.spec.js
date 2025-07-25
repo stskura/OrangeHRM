@@ -3,12 +3,11 @@ import { test, expect } from '@playwright/test';
 import { Utilities } from './testUtilities';
 
 //Candidate Fields
-const candidateFields = {
-      firstName: "OrangeFirstName",
+let candidateFields = {
+      firstName: "Orange",
       lastName: "TestLastName",
       email: "test@test.com"
   };
-
 
 /**
  * Before each test do the login.
@@ -17,23 +16,7 @@ test.beforeEach(async ({ page }) => {
   const utilities = new Utilities(page);
   //Login before each test
   await utilities.login();
-
 });
-
-/**
- * Delete the candidates added in the tests
- */
-/*
-test.afterAll(async ({browser}) => {
-  console.log('afterAll');
-  let page = await browser.newPage();  
-  const utilities = new Utilities(page);
-  await utilities.login();
-
-  //Delete the candidate s
-  await utilities.deleteCandidate(candidateFields.firstName);
-});
-*/
 
 /**
  * Test Case 1: 
