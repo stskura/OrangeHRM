@@ -23,3 +23,6 @@
 <br clear="right"/>
 </br>
 </br>
+
+## :pencil: Defects and Enhancement Suggestions
+&emsp;See the detailed report here: [Defect and Enhancement Report](/defect.md)
