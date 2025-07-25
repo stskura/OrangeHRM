@@ -5,7 +5,9 @@
   Steps:\
 &emsp;1. Open a terminal or the Visual Studio Code\
 &emsp;2. Go to the folder of the project\
-&emsp;3. Run the following code to execute the tests:\
+&emsp;3. Install the Playwright dependencies:\
+&emsp;&emsp;`npm install -D @playwright/test`\
+&emsp;4. Run the following code to execute the tests:\
 &emsp;&emsp;`npx playwright test` 
 <br/>
 <br/>
