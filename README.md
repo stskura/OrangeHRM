@@ -1,5 +1,5 @@
 # OrangeHRM
-  &emsp;This repository will provide the tests for the Orange HRM application.
+  &emsp;This Playwright repository will provide the tests for the Orange HRM application.
 
 ## :computer: How to Execute the Tests
   Steps:\
