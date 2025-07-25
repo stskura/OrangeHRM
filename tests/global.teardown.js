@@ -14,9 +14,7 @@ teardown('Cleanup - Delete all candidates created', async ({ }) => {
 
     //Click in the Recruitment menu item
     const utilities = new Utilities(page);
-
     utilities.login();
-
     await utilities.page.getByRole("navigation").getByText('Recruitment').click();
 
     //Click in the checkbox of the created candidate
@@ -26,11 +24,12 @@ teardown('Cleanup - Delete all candidates created', async ({ }) => {
 
     if(candidates!=null && await candidates.count() > 0){
 
+        //Check the candidate checkbox
         for (let i = 0; i < count; ++i) {
             await candidates.nth(i).getByRole('checkbox').locator('//following-sibling::span').check(); 
         }
 
-        //Click in the delete utton
+        //Click in the delete button
         await utilities.buttonClick('Delete Selected');
 
         //Click to confirm the delete operation

@@ -13,10 +13,10 @@ test.beforeEach(async ({ page }) => {
 
 /**
  * Test Case 1: 
- *      Login in the Orange HRM page and verify the Dashboard page is loaded.
+ *      Login in the Orange HRM page and verify if the Dashboard page is loaded.
  */
 test('Login', async ({ page }) => { 
-  //Login was done by the before each test
+  //Login was done before each test
 
   //Validate the Dashboard page opens
   await expect(page, "The login should be done and go to the Dashboard page").toHaveURL(/dashboard/);
@@ -56,7 +56,7 @@ test('Recruitment - Edit Candidate', async ({ page }) => {
   //Fill the Candidate Name
   await utilities.fillText('Type for hints...', candidateFields.firstName);
 
-  //Click in the list of the candidate name search
+  //Click in the list of the candidate name searched
   var listbox = page.getByRole('listbox');  
   await expect(listbox, "The list in the searched names should be shown").toBeVisible();
 
@@ -92,7 +92,7 @@ test('Recruitment - Edit Candidate', async ({ page }) => {
   await utilities.validateSuccessMessage();
 
   //Validate if the table was updated with the middle name
-  await expect(page.getByRole('table').filter({hasText : middleName}), "Table must find at least one record found").not.toHaveCount(0);
+  await expect(page.getByRole('table').filter({hasText : middleName}), "Table must find the candidate edited middle name").not.toHaveCount(0);
 });
 
 /**
@@ -117,12 +117,12 @@ test('Recruitment - Delete Candidate', async ({ page }) => {
   var deleteButton = 'Delete Selected';
   await expect(page.getByText(deleteButton), "The delete button should be shown").toBeVisible();
 
-  //Click in the delete utton
+  //Click in the delete button
   await utilities.buttonClick(deleteButton);
 
   //Validate if dialog is shown
   deleteButton = 'Yes, Delete';
-  await expect(page.getByText(deleteButton), "The \"\"+ deleteButton + \"\" button should be shown").toBeVisible();
+  await expect(page.getByText(deleteButton), "The Yes, Delete button should be shown").toBeVisible();
 
   //Click to confirm the delete operation
   await utilities.buttonClick(deleteButton);
