@@ -3,7 +3,7 @@
 
 ## :computer: How to Execute the Tests
   Steps:\
-&emsp;1. Open a terminal or the Visual Studio Code\
+&emsp;1. Open a terminal or the terminal in the Visual Studio Code\
 &emsp;2. Go to the folder of the project\
 &emsp;3. Install the Playwright dependencies:\
 &emsp;&emsp;`npm install -D @playwright/test`\
